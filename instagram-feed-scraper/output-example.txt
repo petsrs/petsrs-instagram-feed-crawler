@@ -1,0 +1,752 @@
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6mWYewJuM4',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6mXUCJpCQF',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6m3GBAtKcj',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'Fred',
+    sex: 'male',
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Dálmata' ],
+    colors: [ 'Branco', 'Preto' ],
+    size: 'G',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'Marrom' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: '51986824548', email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6m3w_6tPss',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'Siamese',
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Siamese' ],
+    colors: [ 'marrom', 'creme' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'azul' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6m5l65Nezh',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Gato Preto' ],
+    colors: [ 'Preto' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'Amarelo' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6m6zMFtN8l',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'cat',
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Domestic Shorthair' ],
+    colors: [ 'preto' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'verde' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6m7zu-NJA0',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: 'female',
+    isNeutered: true,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Beagle', 'Jack Russell Terrier' ],
+    colors: [ 'branco', 'marrom' ],
+    size: 'M',
+    originalLocation: 'zona rural',
+    currentLocation: 'abrigo temporário',
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6m8nCqtSa_',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: 'male',
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Vira-lata' ],
+    colors: [ 'amarelo', 'marrom' ],
+    size: 'M',
+    originalLocation: 'zona rural',
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: {
+      phone: '12345-6789',
+      email: 'info@rescueorg.com',
+      instagram: '@rescueorg'
+    }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6m84viNrTz',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Labrador Retriever', 'Mestiço' ],
+    colors: [ 'amarelo', 'preto', 'branco' ],
+    size: 'G',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho', 'castanho' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6m9lGgtI5O',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'cat',
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Domestic Short Hair' ],
+    colors: [ 'branco', 'amarelo' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'azul', 'âmbar' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nAHVIN8If',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: null,
+    colors: [ 'cinza' ],
+    size: null,
+    originalLocation: null,
+    currentLocation: null,
+    state: null,
+    eyeColors: [ 'amarelo' ],
+    isRescued: null,
+    isInTemporaryHome: null,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nAdBWNLFF',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [ 'Felino Doméstico' ],
+    colors: [ 'preto', 'branco' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'amarelo' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nCTW7tdpw',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'unknown',
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Rottweiler', 'Doberman' ],
+    colors: [ 'preto', 'marrom' ],
+    size: 'M',
+    originalLocation: 'unknown',
+    currentLocation: 'unknown',
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nE6Fdti-L',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'Dog',
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Mixed Breed', 'German Shepherd' ],
+    colors: [ 'Bege', 'Preto', 'Branco' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'Castanho' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nFV3rtX_N',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6nGOhcNaxD',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6nG6Dptclt',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'Misty',
+    sex: 'female',
+    isNeutered: true,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Maine Coon', 'Norwegian Forest Cat' ],
+    colors: [ 'Cinza', 'Branco' ],
+    size: 'M',
+    originalLocation: 'Curitiba',
+    currentLocation: 'Adoption center in Curitiba',
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'Verde' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: {
+      phone: '+554100000000',
+      email: 'info@adoptioncenter.com',
+      instagram: '@adoptioncenter'
+    }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nHN_bNlcm',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'unknown',
+    sex: 'male',
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Pastor Alemão', 'Labrador' ],
+    colors: [ 'preto' ],
+    size: 'G',
+    originalLocation: 'unknown',
+    currentLocation: 'unknown',
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: 'unknown', email: 'unknown', instagram: 'unknown' }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nH8Betb34',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [],
+    colors: [ 'preto' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'amarelo' ],
+    isRescued: null,
+    isInTemporaryHome: null,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nIy9YN6jb',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [ 'Gato doméstico' ],
+    colors: [ 'preto' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'amarelo' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nJlUaNKmt',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'cat',
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'young',
+    possibleBreeds: [ 'Tabby' ],
+    colors: [ 'cinza', 'preto' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'azul', 'cinza' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nNas4tQNx',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: 'female',
+    isNeutered: true,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Pinscher', 'Dachshund' ],
+    colors: [ 'preto', 'marrom' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'marrom escuro' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nOSCRtnV7',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Dachshund' ],
+    colors: [ 'preto', 'branco' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nPB8-N6Lt',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6nPzXxNgnL',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'vira-lata' ],
+    colors: [ 'preto', 'marrom' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho' ],
+    isRescued: false,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nQYTjNt_3',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [ 'Maine Coon', 'Persa' ],
+    colors: [ 'Preto', 'Branco' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'Amber' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nQwNTtG3j',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6nREuPtVzc',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [],
+    colors: [ 'preto' ],
+    size: null,
+    originalLocation: null,
+    currentLocation: null,
+    state: null,
+    eyeColors: [ 'amarelo' ],
+    isRescued: null,
+    isInTemporaryHome: null,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nRTLPN9G3',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6nW63Lslyj',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'unknown',
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [ 'Gato doméstico de pelo curto' ],
+    colors: [ 'branco' ],
+    size: 'M',
+    originalLocation: 'unknown',
+    currentLocation: 'unknown',
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'verde' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nYAxYMARP',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {},
+  instagramPostUrl: 'https://instagram.com/p/C6nZ3lDMnws',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'Gato',
+    sex: 'male',
+    isNeutered: true,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Domestic Short Hair' ],
+    colors: [ 'preto' ],
+    size: 'P',
+    originalLocation: 'São Paulo',
+    currentLocation: 'São Paulo',
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'amarelo' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nbZS3M0VD',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [ 'Gato doméstico' ],
+    colors: [ 'branco', 'cinza' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'azul' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nbvyXsZ1g',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'cat',
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Russian Blue' ],
+    colors: [ 'cinza' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'amarelo' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6ncFu8sgAN',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: 'Mel',
+    sex: 'female',
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: [],
+    colors: [ 'preto', 'amarelo' ],
+    size: 'P',
+    originalLocation: 'rua Florianópolis, nº4296',
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'amarelo' ],
+    isRescued: true,
+    isInTemporaryHome: null,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6ndHYXO40p',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: null,
+    colors: [ 'branco' ],
+    size: null,
+    originalLocation: null,
+    currentLocation: null,
+    state: null,
+    eyeColors: [ 'preto' ],
+    isRescued: null,
+    isInTemporaryHome: null,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nd4SiukhQ',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: 'female',
+    isNeutered: null,
+    ageGroup: 'young',
+    possibleBreeds: [ 'Dachshund' ],
+    colors: [ 'marrom', 'branco' ],
+    size: 'P',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'marrom' ],
+    isRescued: true,
+    isInTemporaryHome: false,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6ne4q4u32F',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: 'adult',
+    possibleBreeds: [ 'Labrador Retriever', 'Mestiço' ],
+    colors: [ 'Preto' ],
+    size: 'G',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'Castanho' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6ng4RhOp1v',
+  instagramAccount: undefined
+}
+undefined
+{
+  dataState: 'TO_VERIFY',
+  crawledInformation: {
+    name: null,
+    sex: null,
+    isNeutered: null,
+    ageGroup: null,
+    possibleBreeds: null,
+    colors: [ 'branco', 'preto' ],
+    size: 'M',
+    originalLocation: null,
+    currentLocation: null,
+    state: 'SEARCHING_OWNER',
+    eyeColors: [ 'castanho' ],
+    isRescued: true,
+    isInTemporaryHome: true,
+    contact: { phone: null, email: null, instagram: null }
+  },
+  instagramPostUrl: 'https://instagram.com/p/C6nhRw4OlrI',
+  instagramAccount: undefined
+}
