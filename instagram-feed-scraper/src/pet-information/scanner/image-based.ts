@@ -3,6 +3,7 @@ import OpenAI from 'openai';
 import { InstagramPost } from '../../instagram/types';
 import {PetInformation, PetMetadata} from "../types";
 import * as process from "process";
+import { createPetMetadata } from '../repository/petMetaDataRepository';
 
 const PROMPT_TEXT = `
 Extract information from the following image.
@@ -46,7 +47,7 @@ export class ImageBasedPetInformationScanner {
 
     async scanInformation(post: InstagramPost) {
         const result = await this.openai.chat.completions.create({
-            model: "gpt-4-turbo",
+            model: "gpt-4o",
             messages: [
                 {
                     "role": "user",
@@ -61,7 +62,7 @@ export class ImageBasedPetInformationScanner {
                     ],
                 }
             ],
-            max_tokens: 256,
+            max_tokens: 300,
         });
 
         const crawledInformation: PetInformation = JSON.parse(result.choices[0].message.content.replace('```json', '').replace('```', ''));
@@ -72,6 +73,8 @@ export class ImageBasedPetInformationScanner {
             instagramPostUrl: `https://instagram.com/p/${post.shortcode}`,
             instagramAccount: post.username,
         };
+
+        await createPetMetadata(pet);
 
         console.log(pet);
     }

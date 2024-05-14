@@ -5,7 +5,7 @@ async function main() {
     const instagramService = new InstagramService();
     const imageBasedPetInformationScanner = new ImageBasedPetInformationScanner();
 
-    const iterator = instagramService.getPostsFromUser("achemeubichinho_canoas");
+    const iterator = instagramService.getPostsFromUser("acheseupetesteio");
 
     let result;
     do {

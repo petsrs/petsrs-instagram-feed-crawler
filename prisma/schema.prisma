@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model PetMetadata {
+  id                 String    @id @default(auto()) @map("_id") @db.ObjectId
+  controlId          String?
+  dataState          DataState
+  crawledInformation Json?
+  information        Json?
+  instagramPostUrl   String?
+  instagramAccount   String?
+}
+
+enum DataState {
+  TO_VERIFY
+  VERIFIED
+}
+
+enum Sex {
+  male
+  female
+}
+
+enum AgeGroup {
+  young
+  adult
+  senior
+}
+
+enum Size {
+  P
+  M
+  G
+}
+
+enum PetState {
+  SEARCHING_OWNER
+  SEARCHING_PET
+}
