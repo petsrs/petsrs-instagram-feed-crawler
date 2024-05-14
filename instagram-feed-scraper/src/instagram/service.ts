@@ -21,7 +21,7 @@ export class InstagramService {
             ],
             { cwd: INSTALOADER_OUTPUT_FOLDER }
         );
-        console.log(result.stdout?.toString(), result.stderr?.toString());
+        console.log(result, result.stdout?.toString(), result.stderr?.toString());
         const postsPath = readdirSync(`${INSTALOADER_OUTPUT_FOLDER}/${username}`);
         for (const postPath of postsPath) {
             try {

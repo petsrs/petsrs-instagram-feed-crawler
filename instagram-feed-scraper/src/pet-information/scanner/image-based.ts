@@ -3,6 +3,7 @@ import OpenAI from 'openai';
 import { InstagramPost } from '../../instagram/types';
 import {PetInformation, PetMetadata} from "../types";
 import * as process from "process";
+import { createPetMetadata } from '../repository/petMetaDataRepository';
 
 const PROMPT_TEXT = `
 Extract information from the following image.
@@ -72,6 +73,8 @@ export class ImageBasedPetInformationScanner {
             instagramPostUrl: `https://instagram.com/p/${post.shortcode}`,
             instagramAccount: post.username,
         };
+
+        await createPetMetadata(pet);
 
         console.log(pet);
     }
