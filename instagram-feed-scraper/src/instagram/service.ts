@@ -10,7 +10,7 @@ export class InstagramService {
     *getPostsFromUser(username: string): Iterator<InstagramPost | undefined> {
         const result = spawnSync(
             'instaloader', [
-                'profile', username,
+                username,
                 '--no-pictures',
                 '--no-videos',
                 '--no-compress-json',
@@ -21,7 +21,7 @@ export class InstagramService {
             ],
             { cwd: INSTALOADER_OUTPUT_FOLDER }
         );
-        console.log(result.stdout.toString(), result.stderr.toString());
+        console.log(result.stdout?.toString(), result.stderr?.toString());
         const postsPath = readdirSync(`${INSTALOADER_OUTPUT_FOLDER}/${username}`);
         for (const postPath of postsPath) {
             try {
