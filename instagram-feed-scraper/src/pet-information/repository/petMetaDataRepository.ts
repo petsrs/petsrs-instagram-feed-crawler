@@ -8,6 +8,10 @@ export const createPetMetadata = async (data: PetMetadata) => {
   return prismaClient.petMetadata.create({ data: data as unknown as PetMetaDataInput });
 };
 
-export const getPetMetadata = async (id: string) => {
-  return prismaClient.petMetadata.findUnique({ where: { id } });
+export const getPetMetadataByInstagramPostId = async (id: string) => {
+  return prismaClient.petMetadata.findFirst({
+    where: {
+      instagramPostId: id
+    }
+  });
 };

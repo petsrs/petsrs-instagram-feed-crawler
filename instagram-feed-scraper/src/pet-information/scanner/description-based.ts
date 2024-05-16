@@ -5,9 +5,8 @@ import {PetInformation, PetMetadata} from "../types";
 import * as process from "process";
 import { createPetMetadata } from '../repository/petMetaDataRepository';
 
-const PROMPT_TEXT = `
-Extract information from the following image.
-If the image does not contains an animal, return an empty JSON object, nothing more. 
+const getPromptText = (description: string) => `
+Extract information from the following description.
 
 If the image contains an animal, return a JSON object with the following information:
 Inform in a JSON object the following information: 
@@ -40,38 +39,39 @@ Inform in a JSON object the following information:
 - If you are not sure about any of the fields, inform \`null\`.
 
 Return only the json, no other comments and no additional text.
+
+Description: 
+
+${description}
 `;
 
-export class ImageBasedPetInformationScanner {
+export class DescriptionBasedPetInformationScanner {
     private openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
     });
 
     async scanInformation(post: InstagramPost) {
-        try {
-            const result = await this.openai.chat.completions.create({
-                model: "gpt-4o",
-                messages: [
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "text", "text": PROMPT_TEXT},
-                            {
-                                "type": "image_url",
-                                "image_url": {
-                                    "url": post.display_url,
-                                },
-                            },
-                        ],
-                    }
-                ],
-                max_tokens: 300,
-            });
-            const crawledInformation: PetInformation = JSON.parse(result.choices[0].message.content.replace('```json', '').replace('```', ''));
-            return crawledInformation;
+       try {
+           const result = await this.openai.chat.completions.create({
+               model: "gpt-4o",
+               messages: [
+                   {
+                       "role": "user",
+                       "content": [
+                           {
+                               "type": "text",
+                               "text": getPromptText(post?.edge_media_to_caption.edges?.[0]?.node?.text)
+                           },
+                       ],
+                   }
+               ],
+               max_tokens: 300,
+           });
 
-        } catch (err) {
-            console.error(err)
-        }
+           const crawledInformation: PetInformation = JSON.parse(result.choices[0].message.content.replace('```json', '').replace('```', ''));
+           return crawledInformation;
+       } catch (err) {
+           console.error(err);
+       }
     }
 }
