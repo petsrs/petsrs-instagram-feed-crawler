@@ -1,7 +1,6 @@
 export interface InstagramPost {
     shortcode: string
     display_url: string
-    display_resources: DisplayResource[]
     ai_agent_type: any
     biography: string
     bio_links: any[]
@@ -14,16 +13,7 @@ export interface InstagramPost {
     external_url: any
     external_url_linkshimmed: any
     edge_followed_by: EdgeFollowedBy
-    owner: {
-        username: string;
-    },
-    edge_media_to_caption: {
-        edges: {
-            node: {
-                text: string
-            }
-        }[]
-    }
+    edge_media_to_caption: EdgeMediaToCaption;
     fbid: string
     followed_by_viewer: boolean
     edge_follow: EdgeFollow
@@ -77,12 +67,6 @@ export interface InstagramPost {
     pronouns: any[]
     edge_related_profiles: EdgeRelatedProfiles
 }
-interface  DisplayResource {
-    src: string
-    config_width: number
-    config_height: number
-
-}
 
 interface BiographyWithEntities {
     raw_text: string
@@ -103,5 +87,9 @@ interface EdgeMutualFollowedBy {
 }
 
 interface EdgeRelatedProfiles {
+    edges: any[]
+}
+
+interface EdgeMediaToCaption {
     edges: any[]
 }
