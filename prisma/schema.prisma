@@ -11,8 +11,8 @@ model PetMetadata {
   id                            String    @id @default(auto()) @map("_id") @db.ObjectId
   controlId                     String?
   dataState                     DataState
-  crawledInformationImage       Json?
-  crawledInformationDescription Json?
+  description                   Json?
+  crawledInformation            Json?
   information                   Json?
   instagramPostUrl              String?
   instagramPostId               String?

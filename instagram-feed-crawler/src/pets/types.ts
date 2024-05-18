@@ -12,7 +12,7 @@ export interface PetInformation {
      * The animal's species.
      * It can be omitted if is unknown.
      */
-    species?: 'cat' | 'dog' | 'horse' | 'bird' | 'cow' | 'pig' | 'rat';
+    species?: 'cat' | 'dog' | 'horse' | 'bird' | 'cow' | 'pig' | 'rat' | 'other';
 
     /**
      * The animal's sex.
@@ -159,7 +159,6 @@ export interface PetInformationError {
 
 export interface PetBaseMetadata {
     crawledInformation: PetInformation | PetInformationError;
-    crawledInformationDescription?: string;
     dataState: 'TO_VERIFY' | 'VERIFIED';
     pictureUrl?: string;
     controlId?: string;

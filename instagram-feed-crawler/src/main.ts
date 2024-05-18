@@ -24,7 +24,7 @@ async function main() {
     const petService = new PetsService();
 
     // Business Logic
-    const iterator = instagramService.getPostsFromUser('animaisperdidossaoleo');
+    const iterator = instagramService.getPostsFromUser('acheseupetesteio');
 
     let postIteratorResult: IteratorResult<InstagramPost, any>;
     do {

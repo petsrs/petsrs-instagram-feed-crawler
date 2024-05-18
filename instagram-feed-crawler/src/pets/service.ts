@@ -6,7 +6,7 @@ export class PetsService {
         return {
             dataState: 'TO_VERIFY',
             crawledInformation: null,
-            crawledInformationDescription: post.edge_media_to_caption.edges[0].node.text,
+            description: post.edge_media_to_caption.edges[0].node.text,
             instagramPostId: post.shortcode,
             instagramPostUrl: `https://instagram.com/p/${post.shortcode}`,
             instagramAccount: post.username,

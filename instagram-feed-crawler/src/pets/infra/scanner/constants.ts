@@ -13,7 +13,7 @@ export interface PetInformation {
      * The animal's species.
      * It can be omitted if is unknown.
      */
-    species?: 'cat' | 'dog' | 'horse' | 'bird' | 'cow' | 'pig' | 'rat';
+    species?: 'cat' | 'dog' | 'horse' | 'bird' | 'cow' | 'pig' | 'rat' | 'other';
 
     /**
      * The animal's sex.

@@ -10,7 +10,7 @@ export class PetsRepository {
     ) {}
 
     async create(data: PetMetadata) {
-        return this.prismaClient.petMetadata.create({ data: data as unknown as PetMetadataInput });
+        return this.prismaClient.petMetadata.create({ data: data as unknown as PetMetadataInput});
     }
 
     async findByInstagramPostId(id: string) {
