@@ -174,7 +174,6 @@ export default function Component() {
                     <span>Fêmea</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                    <LocateIcon className="w-4 h-4" />
                     <span>Chicago, IL</span>
                   </div>
                 </div>
