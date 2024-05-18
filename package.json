@@ -2,7 +2,10 @@
   "name": "pet",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx build",
+    "serve:instagram-feed-crawler": "nx serve instagram-feed-crawler"
+  },
   "private": true,
   "devDependencies": {
     "@nx/esbuild": "19.0.2",

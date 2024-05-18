@@ -1,7 +1,7 @@
 {
-  "name": "instagram-feed-scraper",
+  "name": "instagram-feed-crawler",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "instagram-feed-scraper/src",
+  "sourceRoot": "instagram-feed-crawler/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -11,12 +11,12 @@
       "defaultConfiguration": "production",
       "options": {
         "platform": "node",
-        "outputPath": "dist/instagram-feed-scraper",
+        "outputPath": "dist/instagram-feed-crawler",
         "format": ["cjs"],
         "bundle": false,
-        "main": "instagram-feed-scraper/src/main.ts",
-        "tsConfig": "instagram-feed-scraper/tsconfig.app.json",
-        "assets": ["instagram-feed-scraper/src/assets"],
+        "main": "instagram-feed-crawler/src/main.ts",
+        "tsConfig": "instagram-feed-crawler/tsconfig.app.json",
+        "assets": ["instagram-feed-crawler/src/assets"],
         "generatePackageJson": true,
         "esbuildOptions": {
           "sourcemap": true,
@@ -41,14 +41,14 @@
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "instagram-feed-scraper:build"
+        "buildTarget": "instagram-feed-crawler:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "instagram-feed-scraper:build:development"
+          "buildTarget": "instagram-feed-crawler:build:development"
         },
         "production": {
-          "buildTarget": "instagram-feed-scraper:build:production"
+          "buildTarget": "instagram-feed-crawler:build:production"
         }
       }
     }

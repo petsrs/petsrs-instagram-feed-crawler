@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mongodb:
+    image: 'mongo'
+    # To initiate, run `docker-compose exec mongodb mongosh` and `rs.initiate()`.
+    command: [ "mongod", "--replSet", "rs0" ]
+    networks:
+      - mongo-network
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=test
+    ports:
+      - 27017:27017
+
+networks:
+  mongo-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local
