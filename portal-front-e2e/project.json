@@ -1,0 +1,9 @@
+{
+  "name": "portal-front-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "portal-front-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["portal-front"],
+  "// targets": "to see all targets run: nx show project portal-front-e2e --web",
+  "targets": {}
+}

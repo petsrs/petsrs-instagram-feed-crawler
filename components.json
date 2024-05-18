@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tailwind": {
+    "config": "portal-front/**/tailwind.config.js",
+    "css": "portal-front/**/app/global.css",
+    "baseColor": "zinc",
+    "cssVariables": true
+  },
+  "aliases": {
+    "components": "portal-front/src/components",
+    "utils": "portal-front/src/utils"
+  }
+}
