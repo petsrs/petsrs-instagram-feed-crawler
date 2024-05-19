@@ -49,6 +49,8 @@ const getPetData = async () => {
   }
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function Component() {
   const pets = await getPetData();
   console.log('pets', pets);
