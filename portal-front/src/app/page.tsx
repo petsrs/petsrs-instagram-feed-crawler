@@ -3,6 +3,7 @@ import { Button } from '../components/ui/button';
 import { SelectValue, SelectTrigger, SelectItem, SelectContent, Select } from '../components/ui/select';
 import { PetBaseMetadata, PetInformation } from '@crawler/types';
 import Image from 'next/image';
+import { GET, GET as getPets } from './api/pets/route';
 
 function translateSpecies(species: 'cat' | 'dog' | 'horse' | 'bird' | 'cow' | 'pig' | 'rat' | 'other' | undefined): string {
   if (!species) return ''
@@ -41,10 +42,10 @@ function translateSex(sex: 'male' | 'female' | undefined): string {
 
 const getPetData = async () => {
   try {
-    console.log('oiiiii');
-    const response = await fetch('http://localhost:3000/api/pets/');
+    const response = await getPets();
     return await response.json() as unknown as PetBaseMetadata[];
   } catch (err) {
+    console.log(err)
     return [] as PetBaseMetadata[];
   }
 };
@@ -53,7 +54,6 @@ export const dynamic = 'force-dynamic';
 
 export default async function Component() {
   const pets = await getPetData();
-  console.log('pets', pets);
   return (
     <>
       <header className="flex items-center justify-between h-16 px-4 md:px-6 border-b">
