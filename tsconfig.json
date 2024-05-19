@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@crawler/types": ["instagram-feed-crawler/src/pets/types.ts"],
+    }
   }
 }

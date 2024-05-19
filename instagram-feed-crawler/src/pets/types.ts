@@ -158,6 +158,7 @@ export interface PetInformationError {
 }
 
 export interface PetBaseMetadata {
+    id?: string;
     crawledInformation: PetInformation | PetInformationError;
     dataState: 'TO_VERIFY' | 'VERIFIED';
     pictureUrl?: string;
