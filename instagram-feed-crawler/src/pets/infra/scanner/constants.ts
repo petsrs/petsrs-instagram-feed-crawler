@@ -77,6 +77,7 @@ export interface PetInformation {
      * The animal's state.
      * It can be \`'SEARCHING_OWNER'\` if the animal is rescued and people are searching for its owner;
      * Or 'SEARCHING_PET' if the animal is lost, and its owner is searching for it.
+     * Note that if the content mention "lost" or "perdido", it means that the owner is searching for the animal, so the state must be \`'SEARCHING_PET'\`.
      * It can be omitted if is unknown.
      */
     state?: 'SEARCHING_OWNER' | 'SEARCHING_PET';
@@ -167,6 +168,7 @@ ${SCHEMA}
     - The animal's distinguishing features can be guessed from the photo, analysing the animal's characteristics.
     - Remember the JSDoc comments from each field to help understand what information have to be analysed.
     - Do not try to guess any of the other fields. Just inform when the information is described in the image labels, if it contains any; 
+- Note that all label content possibly present in the image is written in Portuguese Brazil.
 - Remember that in JSON spec does not exist 'undefined' value. 
 - Return only the JSON, no other comments and no additional text.
 `;
