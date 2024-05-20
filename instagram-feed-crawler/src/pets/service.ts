@@ -9,7 +9,7 @@ export class PetsService {
             description: post.edge_media_to_caption.edges[0].node.text,
             instagramPostId: post.shortcode,
             instagramPostUrl: `https://instagram.com/p/${post.shortcode}`,
-            instagramAccount: post.username,
+            instagramAccount: post.owner.username,
             pictureUrl: post.display_url
         }
     }
