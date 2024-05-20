@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "postinstall": "prisma generate",
     "build": "nx build",
     "serve:instagram-feed-crawler": "nx serve instagram-feed-crawler"
   },

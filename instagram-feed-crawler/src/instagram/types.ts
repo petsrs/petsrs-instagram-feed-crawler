@@ -62,7 +62,9 @@ export interface InstagramPost {
     remove_message_entrypoint: boolean
     transparency_label: any
     transparency_product: any
-    username: string
+    owner: {
+        username: string
+    }
     connected_fb_page: any
     pronouns: any[]
     edge_related_profiles: EdgeRelatedProfiles
