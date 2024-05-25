@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { Button } from '../components/ui/button';
-import { SelectValue, SelectTrigger, SelectItem, SelectContent, Select } from '../components/ui/select';
 import { PetBaseMetadata, PetInformation } from '@crawler/types';
 import Image from 'next/image';
-import { GET, GET as getPets } from './api/pets/route';
+import { GET as getPets } from './api/pets/route';
+import Filters from '../components/filters';
 
 function translateSpecies(species: 'cat' | 'dog' | 'horse' | 'bird' | 'cow' | 'pig' | 'rat' | 'other' | undefined): string {
   if (!species) return ''
@@ -73,71 +73,7 @@ export default async function Component() {
       </header>
       <section className="bg-gray-100  py-8">
         <div className="container px-4 md:px-6">
-          <form className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Select>
-              <SelectTrigger>
-                <SelectValue placeholder="Tipo de Animal" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="dog">Cachorro</SelectItem>
-                <SelectItem value="cat">Gato</SelectItem>
-                <SelectItem value="bird">Pássaro</SelectItem>
-                <SelectItem value="other">Outro</SelectItem>
-              </SelectContent>
-            </Select>
-            <Select>
-              <SelectTrigger>
-                <SelectValue placeholder="Raça" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="labrador">Labrador</SelectItem>
-                <SelectItem value="golden-retriever">Golden Retriever</SelectItem>
-                <SelectItem value="persian">Persa</SelectItem>
-                <SelectItem value="siamese">Siamês</SelectItem>
-              </SelectContent>
-            </Select>
-            <Select>
-              <SelectTrigger>
-                <SelectValue placeholder="Tamanho" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="small">Pequeno</SelectItem>
-                <SelectItem value="medium">Médio</SelectItem>
-                <SelectItem value="large">Grande</SelectItem>
-              </SelectContent>
-            </Select>
-            <Select>
-              <SelectTrigger>
-                <SelectValue placeholder="Cor" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="black">Preto</SelectItem>
-                <SelectItem value="white">Branco</SelectItem>
-                <SelectItem value="brown">Marrom</SelectItem>
-                <SelectItem value="mixed">Misto</SelectItem>
-              </SelectContent>
-            </Select>
-            <Select>
-              <SelectTrigger>
-                <SelectValue placeholder="Gênero" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="male">Macho</SelectItem>
-                <SelectItem value="female">Fêmea</SelectItem>
-              </SelectContent>
-            </Select>
-            <Select>
-              <SelectTrigger>
-                <SelectValue placeholder="Idade" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="baby">Filhote</SelectItem>
-                <SelectItem value="young">Jovem</SelectItem>
-                <SelectItem value="adult">Adulto</SelectItem>
-                <SelectItem value="senior">Idoso</SelectItem>
-              </SelectContent>
-            </Select>
-          </form>
+           <Filters />
         </div>
       </section>
       <section className="py-8">
@@ -148,24 +84,24 @@ export default async function Component() {
                 return (
                   <div key={item.id}
                        className="bg-white dark:bg-gray-950 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-
                     <Link className="block" href="#">
                       <div className="relative overflow-hidden">
                         <Image
                           alt="Imagem do Animal"
-                          className="w-full h-48 object-cover"
-                          height={300}
+                          className="w-full object-cover"
+                          height={500}
                           loading="lazy"
                           src={item?.pictureUrl || ''}
                           style={{
-                            aspectRatio: '1920/1080',
-                            objectFit: 'cover'
+                            aspectRatio: '1080/1350',
+                            objectFit: 'cover',
+                            alignItems: 'center'
                           }}
                           width={400}
                         />
 
                         <div
-                          className="absolute inset-0 w-full bg-gradient-to-t from-gray-900 to-transparent">
+                          className="absolute opacity-70 inset-0 w-full bg-gradient-to-t from-gray-900 to-transparent">
                           <div className="h-full w-full relative">
 
                             <h3

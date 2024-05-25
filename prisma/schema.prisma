@@ -8,21 +8,59 @@ datasource db {
 }
 
 model PetMetadata {
-  id                            String    @id @default(auto()) @map("_id") @db.ObjectId
-  controlId                     String?
-  dataState                     DataState
-  description                   Json?
-  crawledInformation            Json?
-  information                   Json?
-  instagramPostUrl              String?
-  instagramPostId               String?
-  pictureUrl                    String?
-  instagramAccount              String?
+  id                 String          @id @default(auto()) @map("_id") @db.ObjectId
+  controlId          String?
+  dataState          DataState
+  description        Json?
+  crawledInformation PetInformation?
+  information        PetInformation?
+  instagramPostUrl   String?
+  instagramPostId    String?
+  pictureUrl         String?
+  instagramAccount   String?
+}
+
+type PetInformation {
+  name                   String?
+  species                String?
+  sex                    Sex?
+  isNeutered             Boolean?
+  ageGroup               AgeGroup?
+  possibleBreeds         String[]
+  colors                 String[]
+  size                   Size?
+  originalLocation       Location
+  currentLocation        LocationWithShelter
+  eyeColors              String[]
+  state                  PetState?
+  isRescued              Boolean?
+  isInTemporaryHome      Boolean?
+  distinguishingFeatures String[]
+  contact                Contact
+}
+
+type Location {
+  city    String?
+  state   String?
+  country String?
+}
+
+type LocationWithShelter {
+  shelterName String?
+  address     String?
+  city        String?
 }
 
 enum DataState {
   TO_VERIFY
   VERIFIED
+}
+
+type Contact {
+  name      String?
+  phone     String?
+  email     String?
+  instagram String?
 }
 
 enum Sex {
